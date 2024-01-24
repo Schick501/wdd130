@@ -1,0 +1,14 @@
+#first-paragraph {
+    color: #960c0c;
+    font-size: 30px;
+    font-weight: bold;
+}
+#second-paragraph {
+    color: rgb(12, 212, 22);
+    font-size: 2em;
+    font-weight: lighter;
+}
+.other-paragraph {
+    color: yellow;
+    background-color: red;
+}

@@ -2,7 +2,7 @@
 
 :root {
     --heading-font: "Rock Salt";
-    --paragraph-font: Tahoma, Arial, Georgia;
+    --paragraph-font: Arial, Georgia, 'Rock Salt';
 }
 
 #content {
@@ -131,3 +131,6 @@ main section img {
     box-sizing: border-box;
 }
 
+footer .social img {
+    padding-top: 15px;
+}

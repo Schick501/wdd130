@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+:root {
+    --heading-font: "Rock Salt";
+    --paragraph-font: Tahoma, Arial, Georgia;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,6 +16,14 @@
 
 body {
     background-color: #D3D5D4;
+    font-family: Arial, georgia, 'Rock Salt';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -23,6 +38,10 @@ nav a:hover {
     background-color: #D3D5D4;
     color: #009FB7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #009FB7;
@@ -31,10 +50,12 @@ nav a:hover {
 footer {
     background-color: #8B2635;
     color: #009FB7;
+    padding: 25px 50px;
 }
 footer a {
     text-decoration: none;
     color: #009FB7;
+    margin-top: 200px;
 }
 footer a:hover {
     color: #8B2635;
@@ -42,12 +63,14 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
     text-align: center;
     color: #009FB7;
     text-decoration: none;
+    padding: 35px;
 }
 footer p {
     font-size: 1.2em;
@@ -73,6 +96,9 @@ main section {
 }
 .home-title {
     color: #8B2635;
+    font-family: 'Rock Salt', 'Arial', 'Georgia';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #009FB7;
@@ -82,5 +108,26 @@ h4 {
 }
 .msg p {
     color: #313E50;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg {
+    line-height: 1.5em;
+    background-color:#D3D5D4;
+    padding: 35px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 

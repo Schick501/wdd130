@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #e9e6e0   ;
+  --secondary-color: #b3a18d ;
+  --accent1-color: #a3a87d;
+  --accent2-color: #95acb5;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";

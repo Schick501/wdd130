@@ -9,6 +9,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 #background {
     height: 725px;
     background-color: #8B2635;
